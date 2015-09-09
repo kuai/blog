@@ -2,7 +2,7 @@
 title: 阿快的逗比纪录
 email: zeyinw@163.com
 description: > # this means to ignore newlines until "baseurl:"
-  来过，在这
+  来过，在这，不辜负美丽心情
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  kuai
