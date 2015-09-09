@@ -1,44 +1,21 @@
-Solar Theme for Jekyll
-======================
+# Documentation
 
-A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
+Compass is a Jekyll theme designed with something very specific in mind: to be a simple and elegant personal landing page that can be easily deployed to [GitHub Pages](https://pages.github.com/).
 
-![Screenshot](http://i.imgur.com/UnnRhkt.png)
+## How to use Compass
 
+1. Start by [installing Bundler](http://bundler.io) `gem install bundler`
+2. [Fork the Compass repository](https://github.com/excentris/compass/fork)
+3. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
+4. Clone the repository you just forked: `git clone https://github.com/YOUR-USER/compass`
+5. Edit `_config.yml` as needed.
+6. Run the Jekyll server with `bundle exec jekyll serve`
+7. Go to `http://localhost:4000`
 
-Features
--------
+## Deploy your site to GitHub Pages
 
-* **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
-* **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
-* **Responsive Design** — Solarized adapts to fit any screen size.
+If you want to use Compass as your personal landing page you can deploy your site to GitHub Pages as a [User Page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). To do so, when you are done modifying your clone, you should rename your repository to `username.github.io` where username is your username. When GitHub builds the page it will be made available at `https://username.github.io`.
 
+If you are planning on using a custom domain to direct to your site, modify the CNAME file as described [here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/).
 
-Installation
---------------
-
-There are two ways to use Solar. You can either clone-and-go, copying the repository and tweaking the contents to taste, or you can cherry-pick the files you want and integrate them into an existing Jekyll instance. 
-
-If you're starting a new blog, you want to clone-and-go. Just `git clone https://github.com/redwallhp/solar-theme-jekyll.git`, make any changes you want to the template, pages or `_config.yml` and start blogging with Jekyll. Easy.
-
-If you're wanting to replace the theme of an existing Jekyll blog, either option should work. If you want to replace files individually, the files and directories you want to make sure to copy are:
-
-1. `_layouts`
-2. `archives`
-3. `assets`
-4. `feed.xml`
-5. `index.xml`
-
-You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
-
-
-Demo
--------
-
-You can see a demo of Solar [right here on GitHub Pages.](http://mattvh.github.io/solar-theme-jekyll/)
-
-
-License
----------
-
-GPLv2 or higher
+Check the [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/) for more information.
