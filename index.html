@@ -23,9 +23,9 @@ layout: base
         {% include content.html %}
       </div>
       {% endif %}
-	<p>all blogs</p>
+	<p>all blogs2</p>
 	<ul>
-         { % for post in site.posts %}
+         { % for post in site.compass.posts %}
            <li>{ { post.date | date_to_string }}<a href="/"></a></li>
          { % endfor %}
 </ul>
