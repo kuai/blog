@@ -4,7 +4,7 @@ layout: default
 <aside id="sidebar">
 {% for category in site.categories %}
 <p>
-	<code>{{ category | first }}</code>
+	{{ category | first }}
 </p>
 {% endfor %}
 </aside>
