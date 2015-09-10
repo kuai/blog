@@ -2,7 +2,7 @@
 layout: post
 title:  "觉得无处抒发的开始"
 date:   2015-09-09 14:56:28
-categories: 飘荡的思绪
+category: 飘荡的思绪
 ---
 这个为了让我转移注意力的blog，终于简单地搭成了，哈哈哈，大笑三声！
 
