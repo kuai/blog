@@ -1,4 +1,4 @@
-yout: post
+layout: post
 title: "被虐的总结"
 description: ""
 category: 技术的脚步
